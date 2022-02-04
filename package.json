@@ -1,0 +1,32 @@
+{
+  "name": "js_req_band_protocol_data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js",
+    "init:ts": "tsc --init",
+    "start:ts_": "tsc && node app.js",
+    "start:ts": "ts-node app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkXultra/js_req_band_protocol_data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkXultra/js_req_band_protocol_data/issues"
+  },
+  "homepage": "https://github.com/mkXultra/js_req_band_protocol_data#readme",
+  "dependencies": {
+    "@bandprotocol/bandchain.js": "^2.0.3"
+  },
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "typescript": "^4.0.5",
+    "ts-node": "^9.0.0"
+  }
+}
